@@ -9,14 +9,17 @@ const Newsletter = () => {
             Sign Up for Our Vet-Approved Monthly Newsletter
           </h2>
           <div className="flex items-center justify-center w-full max-w-md">
-            <input
-              type="email"
-              placeholder="Your email address"
-              className="p-3 w-full border border-gray-300 rounded-l-lg focus:outline-none"
-            />
-            <button className="bg-orange-500 text-white px-6 py-3 rounded-r-lg hover:bg-orange-600 w-full">
-              Sign Up
-            </button>
+            <form action="https://getform.io/f/alljomwa" method="POST">
+              {" "}
+              <input
+                type="email"
+                placeholder="Your email address"
+                className="p-3 w-full border border-gray-300 rounded-l-lg focus:outline-none"
+              />
+              <button className="bg-orange-500 text-white px-6 py-3 rounded-r-lg hover:bg-orange-600 w-full">
+                Sign Up
+              </button>
+            </form>
           </div>
           <p className="text-xs text-gray-500 mt-2">
             By signing up you agree to our{" "}

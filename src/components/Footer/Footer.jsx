@@ -12,14 +12,16 @@ export default function Footer() {
             Sign-Up for Vet-Approved Health Tips, Giveaways, and More
           </p>
           <div className="mt-4 flex justify-center md:justify-start">
-            <input
-              type="email"
-              placeholder="Enter Email Address"
-              className="p-2 rounded-l-lg text-gray-800 focus:outline-none w-60"
-            />
-            <button className="bg-white text-orange-500 p-2 rounded-r-lg">
-              ➔
-            </button>
+            <form action="https://getform.io/f/alljomwa" method="POST">
+              <input
+                type="email"
+                placeholder="Enter Email Address"
+                className="p-2 rounded-l-lg text-gray-800 focus:outline-none w-60"
+              />
+              <button className="bg-white text-orange-500 p-2 rounded-r-lg">
+                ➔
+              </button>
+            </form>
           </div>
           <p className="mt-2 text-xs">
             By signing up you agree on our{" "}
