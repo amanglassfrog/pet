@@ -12,13 +12,13 @@ export default function Home() {
     <>
       <head>
         <meta name="google-site-verification" content="sl2813YiVanE1sUEhBlAfCmb5oUcjaO-d7oNn_GQI7c" />
-         <Script
+         <script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-E2K2R6FDCZ"
         strategy="afterInteractive"
       />
 
-      <Script id="google-analytics" strategy="afterInteractive">
+      <script id="google-analytics" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
@@ -27,7 +27,7 @@ export default function Home() {
             page_path: window.location.pathname,
           });
         `}
-      </Script>
+      </script>
 
       </head>
       <Navbar />
