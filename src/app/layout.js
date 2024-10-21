@@ -1,5 +1,7 @@
 import { Fuzzy_Bubbles } from "next/font/google"; // Import Fuzzy Bubbles
 import "./globals.css";
+import Script from "next/script";
+
 
 // Import Fuzzy Bubbles font with the specified subset and preloading
 const fuzzyBubbles = Fuzzy_Bubbles({
