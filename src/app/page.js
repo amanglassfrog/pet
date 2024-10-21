@@ -14,19 +14,7 @@ export default function Home() {
       <head>
         <meta name="google-site-verification" content="sl2813YiVanE1sUEhBlAfCmb5oUcjaO-d7oNn_GQI7c" />
         
-<Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-E2K2R6FDCZ"
-        strategy="afterInteractive"
-        async
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-E2K2R6FDCZ');
-        `}
-      </Script>
+
       </head>
       <Navbar />
       <Banner />
