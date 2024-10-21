@@ -16,7 +16,7 @@ export default function Home() {
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-E2K2R6FDCZ"
         strategy="afterInteractive"
-      />
+      ></script>
 
       <script id="google-analytics" strategy="afterInteractive">
         {`
