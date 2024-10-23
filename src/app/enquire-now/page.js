@@ -46,7 +46,7 @@ const EnquireNow = () => {
     setLoading(true);
 
     try {
-      const res = await fetch("/api/sendEmail", {
+      const res = await fetch("pages/api/sendEmail", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
