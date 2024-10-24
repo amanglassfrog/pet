@@ -11,11 +11,7 @@ import Script from "next/script";
 export default function Home() {
   return (
     <>
-      <head>
-        <meta name="google-site-verification" content="sl2813YiVanE1sUEhBlAfCmb5oUcjaO-d7oNn_GQI7c" />
-        
-
-      </head>
+     
       <Navbar />
       <Banner />
       <PetHealthSection/>
