@@ -25,7 +25,7 @@ export default function Footer() {
           </div>
           <p className="mt-2 text-xs">
             By signing up you agree on our{" "}
-            <a href="#" className="underline">
+            <a href="/terms-condition" className="underline">
               Terms & Condition
             </a>
           </p>

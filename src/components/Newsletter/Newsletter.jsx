@@ -17,13 +17,13 @@ const Newsletter = () => {
                 className="p-3 w-full border border-gray-300 rounded-l-lg focus:outline-none"
               />
               <button className="bg-orange-500 text-white px-6 py-3 rounded-r-lg hover:bg-orange-600 w-full">
-                Sign Up 
+                Sign Up
               </button>
             </form>
           </div>
           <p className="text-xs text-gray-500 mt-2">
             By signing up you agree to our{" "}
-            <a href="#" className="text-orange-500 underline">
+            <a href="/terms-condition" className="text-orange-500 underline">
               Terms & Condition
             </a>
           </p>
